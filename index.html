@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project Planner</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1 style="display: inline; color: whitesmoke">Project Planner</h1>
+        <button type="button" name="button" id="addProject">Add Project</button>
+      </div>
+      <br />
+      <div class="form1 hidden">
+        <form>
+          <input
+            type="text"
+            size="43"
+            id="title"
+            class="field"
+            placeholder="Enter project title."
+          />
+
+          <textarea
+            name=""
+            id="desc"
+            class="field"
+            cols="45"
+            rows="5"
+            placeholder="Enter Project Description"
+          ></textarea>
+          <br />
+
+          <button type="button" class="button1" id="add">Add</button>
+          <button type="button" class="button2" id="cancel">Cancel</button>
+        </form>
+      </div>
+      <br />
+      <div class="content">
+        <div class="activeProject">
+          <h2 id="active">Active Projects</h2>
+          <div class="projectBody">
+            <div class="projectList">
+              <div style="text-align: center" class="noActive">
+                <h1>No Projects</h1>
+              </div>
+              <h1 class="h1Active"></h1>
+              <p class="pActive"></p>
+              <button type="button" id="finishedButton" class="button1 hidden">
+                Finish
+              </button>
+            </div>
+          </div>
+        </div>
+        <br />
+
+        <div class="finishedProject">
+          <h2 id="finish">Finished Projects</h2>
+          <div class="projectBody">
+            <div class="projectList">
+              <div style="text-align: center" class="noFinished">
+                <h1>No Projects</h1>
+              </div>
+              <h1 class="h1Finished"></h1>
+              <p class="pFinished"></p>
+              <button type="button" id="activeButton" class="button1 hidden">
+                Active
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="javascript.js"></script>
+  </body>
+</html>

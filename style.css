@@ -1,0 +1,98 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.header {
+  background-color: tomato;
+  height: 75px;
+  text-align: center;
+  line-height: 70px;
+  padding: 15px;
+}
+#addProject {
+  color: tomato;
+  float: right;
+  margin-top: 25px;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 2px;
+}
+
+.form1 {
+  margin: 0 auto;
+  max-width: 600px;
+  text-align: center;
+  border: 1px solid grey;
+  border-radius: 2px;
+}
+.field {
+  margin-top: 10px;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 3px;
+}
+
+.button1 {
+  margin-top: 10px;
+  border: 1px solid grey;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: tomato;
+  color: whitesmoke;
+  font-size: 14px;
+}
+.button2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid tomato;
+  border-radius: 2px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: tomato;
+  background-color: whitesmoke;
+  font-size: 14px;
+}
+
+.content {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+#active {
+  margin-top: 0px;
+  background-color: purple;
+  color: whitesmoke;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+#finish {
+  margin-top: 0px;
+  background-color: grey;
+  color: whitesmoke;
+  height: 40px;
+  line-height: 40px;
+  padding-left: 20px;
+}
+.hidden {
+  display: none;
+}
+.activeProject {
+  border: 1px solid black;
+}
+.finishedProject {
+  border: 1px solid black;
+}
+.projectBody {
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.projectList {
+  padding: 10px;
+  padding-top: 0px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
